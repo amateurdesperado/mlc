@@ -1,0 +1,13 @@
+#jupyter notebooks
+dis is some damn cool shit:
+  ipython in a fucking browser
+  can use on any fucking device
+
+#data types
+set: an unordered collection with no duplicate elements. Basic uses include
+membership testing and eliminating duplicate entries.
+Set objects also support mathematical operations like union,
+intersection, difference, and symmetric difference.
+  u can't append sets with lists, only tuples
+  (TypeError: unhashable type: 'list')
+  
