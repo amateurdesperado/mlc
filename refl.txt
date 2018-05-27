@@ -10,4 +10,22 @@ Set objects also support mathematical operations like union,
 intersection, difference, and symmetric difference.
   u can't append sets with lists, only tuples
   (TypeError: unhashable type: 'list')
-  
+
+#pandas
+DataFrame is a data representation as a table
+easy to make DataFrames from dicts:
+  frame = pd.DataFrame(dict)
+make DataFrame from file data:
+  frame = pd.read_csv('filename.tsv', header=0, sep='\t')
+  sep stands for what the data is separated buy
+write DataFrame to file:
+  frame.to_csv('updated_dataset.csv', sep=',', header=True, index=False)
+append DataFrame:
+  frame.append(newline, ignore_index)
+  doesn't change the original DataFrame tho
+  changes the original DataFrame:
+  frame = frame.append()
+delete line from DataFrame:
+  frame.drop([1,5], axis = 0, inplace = True)
+delete column from DataFrame:
+  fr.drop(['columnname'], axis = 1, inplace = True)
