@@ -29,3 +29,13 @@ delete line from DataFrame:
   frame.drop([1,5], axis = 0, inplace = True)
 delete column from DataFrame:
   fr.drop(['columnname'], axis = 1, inplace = True)
+
+#numpy
+  np.array.ndim - returns dim of an array
+  np.array.shape - returns length of a vector
+  numpy.linalg.norm(x, ord = None, ...) - returns the norm of a vector
+    ord = 1: l1 norm (sum of modules - Manhattan norm)
+    ord = 2: l2 norm (Euclidean norm)
+  np.dot - dot product of 2 vectors
+  np.eye - returns the identity matrix
+  
